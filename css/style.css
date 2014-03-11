@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8eaef;
+  margin: 0;
+  font-family: "proxima-nova", sans-serif;
+
+}
+
+
+.wrapper {
+  background: white;
+  max-width: 1020px;
+  min-width: 640px;
+  border-right: 1px solid #bfc6c7;
+  border-left: 1px solid #bfc6c7;
+  margin: 0 auto;
+  display: block;
+  min-height: 100%;
+
+
+}
+
+.banner {
+  background-image: url("../img/emiel_designer.jpg");
+  height: 470px;
+  width: 100%;
+  display: block;
+  background-size: 1020px 470px;
+  border-bottom: 1px solid #bfc6c7;
+}
+
+
+
+.intro {
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  position: absolute;
+  display: block;
+  margin: 0 6.5%;
+  top: 177px;
+}
+
+
+.intro h1 {
+font-size: 1.2em;
+font-weight: 800;
+margin: 0;
+color:white;
+}
+
+.intro h2 {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 6px 0;
+  color: #eeeff0;
+  margin-bottom: 40px
+}
+
+.readmore {
+  color:white;
+  /*opacity: 0;*/
+  display:inline;
+  text-decoration:none;
+  font-size: 0.9em;
+  padding: 9px 10px 8px 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(255,255,255,0.3);
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+.left-project-logo {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  background: white;
+  height: 412px;
+  float: left;
+  border-right: 1px solid #bfc6c7;
+
+}
+
+
+
+.right-project-logo{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  background: white;
+  height: 412px;
+  float: right;
+}
+
+
+.project-info {
+  width: 100%;
+  display:block;
+  background: #fdfdfd;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid rgba(190,198,199,0.4);
+  min-height: 96px;
+  border-bottom: 1px solid #bfc6c7;
+  min-height: 96px;
+}
+
+
+.info-text {
+color: #101011;
+display: inline-block;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+font-size: 0.9em;
+margin: 30px 0px 0px 30px;
+padding: 3.5px;
+}
+
+.info-text_2 {
+color: #616167;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.15em;
+font-size: 0.9em;
+padding-bottom: 22px;
+margin: 4px 30px 0px 30px;
+}
+
+
+
+
+.company-pic {
+  margin: 0 auto;
+  display: block;
+  margin-top: 94px;
+}
+
