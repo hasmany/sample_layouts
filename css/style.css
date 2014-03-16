@@ -136,5 +136,45 @@ margin: 4px 30px 0px 30px;
   margin: 0 auto;
   display: block;
   margin-top: 94px;
+  position: relative;
 }
+
+ul {
+clear: both;
+margin: 0 auto;
+display: block;
+padding: 60px 10px 40px 10px;
+text-align: center;
+list-style-type: none;
+position:relative;
+}
+
+.linkpic {
+position: relative;
+top:50px;
+left:-150px;
+display: inline-block;
+
+}
+
+.twitterpic {
+  position: relative;
+  top: 20px;
+  left: -55px;
+
+}
+
+.skyepic {
+  position: relative;
+  top:-8px;
+  left: 38px;
+}
+
+.planepic {
+  position: relative;
+  top: -41px;
+  left: 120px;
+
+}
+
 
