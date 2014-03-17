@@ -12,10 +12,13 @@ $(document).ready(function() {
        });
    });
    $(".popup").hide();
+   $(".black").hide();
    $(".readmore").click(function () {
     $(".popup").toggle();
-    $("body").css({ opacity: 0.5 });
+    $(".black").toggle();
+
    });
+
 });
 
 
